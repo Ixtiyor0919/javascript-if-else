@@ -27,11 +27,11 @@ var b = prompt('Ikkinchi raqam:', 0)
 var result = prompt(`${a}+${b}:`)
 
 if(Number(a)+ Number(b) === Number(result) ) {
-    console.log(`To'g'ri bajardiz`)
+    alert(`To'g'ri bajardiz`)
 }else if(Number(a)+ Number(b) < Number(result) ) {
-    console.log(`To'g'ri javobdan o'tib ketdiz`)
+    alert(`To'g'ri javobdan o'tib ketdiz`)
 }else {
-    console.log(`Yana yaxshi o'qishga to'g'ri kelar ekan`)
+    alert(`Yana yaxshi o'qishga to'g'ri kelar ekan`)
 }
 
 
